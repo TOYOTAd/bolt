@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
 .inner {
-  width: 1100px;
   display: flex;
   justify-content: space-between;
+  margin: auto;
+  width: 1100px;
 }
 
 .header {
@@ -17,7 +18,7 @@
 
 .fa-bolt {
   color: gray;
-  margin-left: 60px;
+  font-size: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,6 +30,12 @@
   font-size: 12px;
   margin-right: 100px;
   padding: 14px 12px;
+}
+
+.header_contact:hover {
+  color: #333;
+  transition: 0.3s all;
+  cursor: pointer;
 }
 
 .theme {
@@ -83,9 +90,12 @@
 
 .olw {
   background-color: #f2f2f2;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+}
+
+.olw-inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .olw_title {
@@ -105,6 +115,13 @@
   margin-left: 100px;
   padding-top: 80px;
   width: 21%;
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.olw_box img:hover {
+  opacity: 1;
+  transition: 0.3s all;
 }
 
 .olw_box img:nth-child(-n+3) {
@@ -141,7 +158,10 @@
 
 .os {
   background-color: #4e4e4e;
-    display: flex;
+}
+
+.os-inner {
+  display: flex;
     flex-direction: column;
     align-items: center;
 }
@@ -192,19 +212,27 @@
 
 .sns_box i {
   color: #74cfae;
+  cursor: pointer;
+  font-size: 40px;
+  padding: 15px 72.5px;
+}
+
+.sns_box i:hover {
+  background-color: white;
+  transition: 0.3s all;
 }
 
 .footer {
   background-color: #74cfae;
 }
 
-.footer_box {
-  color: white;
-  width: 400px;
-  padding-top: 20px;
-  padding-bottom: 25px;
+.footer-inner {
+  text-align: right;
 }
 
-.footer_box h, .footer_box i {
-  margin-left: 0;
+.footer_box {
+  color: white;
+  width: 1100px;
+  padding-top: 20px;
+  padding-bottom: 25px;
 }
