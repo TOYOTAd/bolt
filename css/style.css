@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
+.body {
+  font-family: Lato;
+}
+
 .inner {
   display: flex;
   justify-content: space-between;
@@ -10,6 +14,8 @@
 .header {
   background-color: white;
   width: 100%;
+  position: fixed;
+  z-index: 100;
 }
 
 .header-inner {
@@ -30,6 +36,7 @@
   font-size: 12px;
   margin-right: 100px;
   padding: 14px 12px;
+  transition: 0.3s;
 }
 
 .header_contact:hover {
@@ -64,6 +71,7 @@
 }
 
 .wwcd_iphone {
+  height: 295px;
   margin-left: 100px;
 }
 
@@ -78,6 +86,7 @@
 .wwcd_title {
   color: white;
   font-size: 24px;
+  font-family: Raleway;
 }
 
 .wwcd_context {
@@ -101,6 +110,7 @@
 .olw_title {
   color: #333;
   font-size: 24px;
+  font-family: Raleway;
   padding-top: 60px;
   padding-bottom: 40px;
 }
@@ -112,11 +122,12 @@
 }
 
 .olw_box img {
-  margin-left: 100px;
-  padding-top: 80px;
-  width: 21%;
-  opacity: 0.7;
   cursor: pointer;
+  margin-left: 100px;
+  opacity: 0.7;
+  padding-top: 80px;
+  transition: 0.3s;
+  width: 21%;
 }
 
 .olw_box img:hover {
@@ -150,10 +161,16 @@
   font-size: 12px;
   margin-left: 90px;
   padding: 14px 20px;
+  transition: 0.3s;
   width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.olw_bottom_button:hover {
+  color: #333;
+  transition: 0.3s all;
 }
 
 .os {
@@ -169,6 +186,7 @@
 .os_title {
   color: white;
   font-size: 24px;
+  font-family: Raleway;
   padding-top: 70px;
   padding-bottom: 40px;
 }
@@ -215,6 +233,7 @@
   cursor: pointer;
   font-size: 40px;
   padding: 15px 72.5px;
+  transition: 0.3s;
 }
 
 .sns_box i:hover {
