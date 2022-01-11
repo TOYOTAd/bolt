@@ -34,7 +34,6 @@
   background-color: #74cfae;
   color: white;
   font-size: 12px;
-  margin-right: 100px;
   padding: 14px 12px;
   transition: 0.3s;
 }
@@ -127,7 +126,6 @@
   opacity: 0.7;
   padding-top: 80px;
   transition: 0.3s;
-  width: 21%;
 }
 
 .olw_box img:hover {
@@ -162,7 +160,6 @@
   margin-left: 90px;
   padding: 14px 20px;
   transition: 0.3s;
-  width: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -171,6 +168,7 @@
 .olw_bottom_button:hover {
   color: #333;
   transition: 0.3s all;
+  cursor: pointer;
 }
 
 .os {
@@ -203,10 +201,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.os_box_imgh img {
-  width: 70%;
 }
 
 .os_box_imgh h {
