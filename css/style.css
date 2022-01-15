@@ -126,7 +126,11 @@
 
 .olw_box > li {
   margin-left: 100px;
-  padding-top: 80px;
+  margin-top: 80px;
+}
+
+.olw_box > li > a {
+  display: inline-block;
 }
 
 .olw_box > li > a > img {
@@ -140,7 +144,7 @@
 }
 
 .olw_box > li:nth-child(-n+3) {
-  padding-top: 0;
+  margin-top: 0;
 }
 
 .olw_box > li:nth-child(3n+1) {
@@ -212,7 +216,7 @@
 .os_box_imgh > h5 {
   color: white;
   font-size: 16px;
-  padding-top: 20px;
+  margin-top: 20px;
 }
 
 .os_box_imgh:first-child {
@@ -227,6 +231,10 @@
   padding: 200px 0;
   margin: auto;
   display: flex;
+}
+
+.sns_box > li > a {
+  display: inline-block;
 }
 
 .sns_box > li > a > i {
