@@ -4,6 +4,10 @@
   font-family: Lato;
 }
 
+.main {
+  padding-top: 70px;
+}
+
 .inner {
   display: flex;
   justify-content: space-between;
@@ -19,7 +23,7 @@
 }
 
 .header-inner {
-  padding: 15px;
+  padding: 15px 0;
 }
 
 .fa-bolt {
@@ -28,6 +32,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.fa-bars {
+  display: none;
 }
 
 .header_contact {
@@ -277,4 +285,148 @@
 
 .footer_box > i {
   margin: 0 5px;
+}
+
+@media screen and (max-width: 1199px) {
+	/* 1199px以下に適用されるCSS（TAB用） */
+
+.inner {
+  width: 97%;
+}
+
+.header {
+  background-color: red;
+}
+
+.wwcd > .inner {
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wwcd-inner {
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
+
+.wwcd_iphone {
+  margin-left: 0;
+}
+
+.wwcd_box {
+  margin: 20px 0 0 0;
+}
+
+.wwcd_context {
+  margin-top: 35px;
+}
+
+.olw-inner {
+  padding-top: 60px;
+  padding-bottom: 70px;
+}
+
+.olw_box {
+  margin-top: 40px;
+  display: block;
+}
+
+.olw_box > li {
+  margin-left: 0px;
+  margin-top: 0px;
+  height: 300px;
+}
+
+.olw_box > li:nth-child(4) {
+  margin-top: 80px;
+}
+
+.olw_bottom {
+  margin-top: 80px;
+  display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.olw_bottom_button {
+  margin-top: 40px;
+  margin-left: 0;
+}
+
+.olw_bottom_context {
+  width: 100%;
+}
+
+.os_box {
+  display: block;
+}
+
+.os_box_imgh {
+  margin-top: 88px;
+  margin-left: 0;
+}
+
+.os_box_imgh:first-child {
+  margin-top: 0;
+}
+
+}
+
+@media screen and (max-width: 767px) {
+	/* 767px以下に適用されるCSS（SP用） */
+
+.header {
+  background-color: blue;
+}
+
+.header_contact {
+  display: none;
+}
+
+.fa-bars {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  color: #ddd;
+  font-size: 20px;
+  padding: 10px;
+  display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.theme-inner {
+  padding-top: 160px;
+  padding-bottom: 130px;
+}
+
+.bt {
+  font-size: 80px;
+  text-align: center;
+}
+
+.fbt {
+  font-size: 30px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.sns-inner {
+  padding: 50px 0;
+}
+
+.sns_box {
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+.sns_box > li > a > i {
+  width: 10vw;
+  font-size: 40px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 40vw;
+  padding-right: 40vw;
+}
+
 }
