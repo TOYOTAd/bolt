@@ -46,6 +46,9 @@
 
 .theme {
   background-color: #f2f2f2;
+}
+
+.theme-inner {
   padding: 250px 0;
 }
 
@@ -70,6 +73,9 @@
 
 .wwcd {
   background-color: #74cfae;
+}
+
+.wwcd-inner {
   padding-top: 50px;
 }
 
@@ -79,8 +85,9 @@
 }
 
 .wwcd_box {
-  margin: 0 100px;
-  padding-top: 10px;
+  margin-top: 10px;
+  margin-left: 100px;
+  margin-right: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,6 +112,8 @@
 }
 
 .olw-inner {
+  padding-top: 60px;
+  padding-bottom: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -114,11 +123,10 @@
   color: #333;
   font-size: 24px;
   font-family: Raleway;
-  padding-top: 60px;
-  padding-bottom: 40px;
 }
 
 .olw_box {
+  margin-top: 40px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -152,8 +160,7 @@
 }
 
 .olw_bottom {
-  padding-top: 90px;
-  padding-bottom: 70px;
+  margin-top: 90px;
   width: 790px;
 }
 
@@ -186,6 +193,8 @@
 }
 
 .os-inner {
+  padding-top: 70px;
+  padding-bottom: 100px;
   display: flex;
     flex-direction: column;
     align-items: center;
@@ -195,15 +204,13 @@
   color: white;
   font-size: 24px;
   font-family: Raleway;
-  padding-top: 70px;
-  padding-bottom: 40px;
 }
 
 .os_box {
-  padding-bottom: 100px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  margin-top: 40px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .os_box_imgh {
@@ -213,7 +220,7 @@
     align-items: center;
 }
 
-.os_box_imgh > h5 {
+.os_box_imgh > p {
   color: white;
   font-size: 16px;
   margin-top: 20px;
@@ -227,8 +234,11 @@
   background-color: #f2f2f2;
 }
 
-.sns_box {
+.sns-inner {
   padding: 200px 0;
+}
+
+.sns_box {
   margin: auto;
   display: flex;
 }
@@ -255,18 +265,16 @@
 }
 
 .footer-inner {
+  padding-top: 20px;
+  padding-bottom: 25px;
   text-align: right;
 }
 
 .footer_box {
   color: white;
   width: 1100px;
-  padding-top: 20px;
-  padding-bottom: 25px;
-  display: flex;
-    justify-content: flex-end;
 }
 
 .footer_box > i {
-  padding: 0 5px;
+  margin: 0 5px;
 }
