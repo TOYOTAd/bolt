@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-.body {
+body {
   font-family: Lato;
 }
 
-.main {
+main {
   padding-top: 70px;
 }
 
@@ -294,10 +294,6 @@
   width: 97%;
 }
 
-.header {
-  background-color: red;
-}
-
 .wwcd > .inner {
   display: flex;
     flex-direction: column;
@@ -374,10 +370,6 @@
 
 @media screen and (max-width: 767px) {
 	/* 767px以下に適用されるCSS（SP用） */
-
-.header {
-  background-color: blue;
-}
 
 .header_contact {
   display: none;
